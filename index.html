@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <img src="imagen1.jpg" alt="">
+        <div id="titulo">
+            <h1> Juan Camilo Parra Mancera</h1>
+        </div>
+        
+        <div id="parrafo">
+        <p>
+            Soy juan camilo parra tengo 20 años y  me gusta mucho la musica desde los 6 años toco guitarra
+            ahora tengo na gran pasion por la tecnologia donde me apasiona todo el desarrollo de aplicaciones
+        </p>
+        </div>
+        <video width="320" height="240" controls>
+            <source src="video1.mp4" type="video/mp4">
+            
+        </video>
+        <footer>
+            <p>Contacto: <a href="mailto:jparram5@estudiante.ibero.edu.co">jparram5@estudiante.ibero.edu.co</a> 
+            <p>Fecha y hora de creación: <span id="fecha-hora"></span></p>
+        </footer>
+        <script>
+            document.getElementById('fecha-hora').textContent = new Date().toLocaleString();
+        </script>
+</body>
+</html>
